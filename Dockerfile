@@ -8,7 +8,7 @@ RUN git clone https://github.com/wolf9466/cpuminer-multi
 WORKDIR /cpuminer-multi
 RUN ./autogen.sh && CFLAGS="-march=native" ./configure && make
 
-ENV USERNAME=47w6Lu6kG3jNDyRLHviQeAjmGPPHkHbgBYBaavP2rVpahLQqrW8WcVh2m5cjhmVq7VAkXW1bDjEuzbNNBj43tRfGGwZsDhT.mdd2-1
+ENV USERNAME=47w6Lu6kG3jNDyRLHviQeAjmGPPHkHbgBYBaavP2rVpahLQqrW8WcVh2m5cjhmVq7VAkXW1bDjEuzbNNBj43tRfGGwZsDhT.mdd2-2-k7
 ENV PASSWORD=x
 ENV URL="stratum+tcp://pool.minexmr.com:4444"
 ENV ALGORITHM=cryptonight
